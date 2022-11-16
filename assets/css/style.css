@@ -87,6 +87,7 @@ h4 {
 /* Class Selectors */
 .seo {
     color: #d9dcd6;
+    /* Styling of the main image on the page */
 }
 .background-image {
     height: 800px;
@@ -96,7 +97,15 @@ h4 {
     background-size: cover;
     background-position: center;
 }
-
+.content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+    /* Styling of article images to align right or left */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -106,6 +115,7 @@ h4 {
     float: right;
     margin-left: 25px;
 }
+    /* Styling images and text of aside section */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -116,11 +126,3 @@ h4 {
     max-width: 150px;
 }
 
-.content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
